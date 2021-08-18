@@ -1,0 +1,15 @@
+{
+  "name": "tree-shaking",
+  "version": "1.0.0",
+  "description": "'tree-shaking examples'",
+  "main": "src/intex.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack"
+  },
+  "author": "katerina198b",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.7.0"
+  }
+}
