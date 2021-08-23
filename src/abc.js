@@ -1,9 +1,9 @@
 export function a() {
-  return 'A';
+  console.log('A');
 }
 export function b() {
-  return 'B'
+  console.log('B');
 }
 export function c() {
-  return 'C'
+  console.log('C');
 }

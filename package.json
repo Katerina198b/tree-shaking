@@ -1,15 +1,20 @@
 {
   "name": "tree-shaking",
   "version": "1.0.0",
-  "description": "'tree-shaking examples'",
+  "sideEffects": false,
+  "description": "tree-shaking examples",
   "main": "src/intex.js",
   "scripts": {
     "test": "jest",
-    "build": "webpack"
+    "build": "webpack --config ./webpack.config.js",
+    "dev": "webpack --config ./webpack-dev.config.js"
   },
   "author": "katerina198b",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^2.7.0"
+    "webpack": "^5.51.1"
+  },
+  "dependencies": {
+    "webpack-cli": "^4.8.0"
   }
 }
